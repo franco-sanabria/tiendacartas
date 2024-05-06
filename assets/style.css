@@ -1,190 +1,366 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-  }
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
-  }
-  nav ul li {
-    font-size: 20px;
-    display: inline;
-    margin-right: 20px;
-  }
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  h1 {
-    font-size: 48px; /* Tamaño de la fuente */
-    color: #fff; /* Color del texto */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Familia de la fuente */
-    font-weight: bold; /* Peso de la fuente */
-    text-align: center; /* Alineación del texto */
-    margin-top: 50px; /* Margen superior */
-    margin-bottom: 30px; /* Margen inferior */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra del texto */
-    padding: 20px; /* Espaciado interno */
-  }
-  .titulo{
-    width: 100%;
-    height: 100%;
-   }
-  footer {
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    text-align: center; /* Alineación del texto */
-    padding: 20px; /* Espaciado interno */
-    bottom: 0; /* Coloca el footer al final de la página */
-    width: 100%; /* Ancho completo */
-  }
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
 
-  /* Estilo para los enlaces del footer */
-  footer a {
-    color: #fff; /* Color del texto */
-    text-decoration: none; /* Quita el subrayado */
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
 
-  /* Estilo para los enlaces del footer al pasar el mouse */
-  footer a:hover {
-    text-decoration: underline; /* Subrayado al pasar el mouse */
-  }
+nav ul li {
+  font-size: 20px;
+  display: inline;
+  margin-right: 20px;
+}
 
-  .buscador {
-    text-align: center; /* Alineación del contenido */
-    margin-top: -30px; /* Margen superior */
-    margin-left: 800px;
-  }
-  .buscador input[type="text"] {
-    padding: 10px; /* Espaciado interno */
-    width: 300px; /* Ancho del campo de texto */
-    border: 1px solid #ccc; /* Borde */
-    border-radius: 5px; /* Radio del borde */
-  }
-  .buscador input[type="submit"] {
-    padding: 10px 20px; /* Espaciado interno */
-    background-color: #007bff; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Radio del borde */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-  }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 
-  body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #b0bdd1;
-    margin: 0;
-    padding: 0;
-  }
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 20px;
-    width: 200px;
-    text-align: center;
-  }
-  .card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  .card h3 {
-    margin-top: 0;
-    font-size: 20px;
-    color: #ff6600; /* Color naranja */
-  }
-  .card p {
-    font-size: 16px;
-    color: #333; /* Color gris oscuro */
-  }
-  .card button {
-    background-color: #ff6600; /* Color naranja */
-    color: #fff; /* Color blanco */
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .card button:hover {
-    background-color: #ff8533; /* Color naranja claro al pasar el mouse */
-  }
+nav ul li a:hover {
+  text-decoration: underline;
+}
 
-  .contenedor-cartas{
-    display: flex;
-    flex-wrap: wrap;
-  }
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Centrar verticalmente */
+  margin-bottom: 20px;
+  /* Margen inferior */
+}
 
-  .p-nosotros{
-    margin-bottom: 50px;
-  }
+.logo {
+  height: 18rem;
+  /* Altura del logo */
+}
 
-  .container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  h2 {
-    text-align: center;
-  }
-  .form-group {
-    margin-bottom: 20px;
-  }
-  .form-group label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  .form-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  .btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .btn:hover {
-    background-color: #0056b3;
-  }
+.titulo h1 {
+  font-size: 36px;
+  /* Tamaño de la fuente */
+  color: #ffffff;
+  /* Color del texto */
+  font-family: 'Montserrat', sans-serif;
+  /* Familia de la fuente */
+  font-weight: bold;
+  /* Peso de la fuente */
+  text-align: center;
+  /* Alineación del texto */
+  margin-top: 10px;
+  /* Margen superior */
+  margin-bottom: 20px;
+  /* Margen inferior */
+}
 
-  .a-registro{
-    margin-top: 20px;
-  }
 
-  .logo{
-    height: 16rem;
-  }
-  .logo-cont{
-    display: flex;
-    justify-content: center;
-  }
+
+.titulo {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #333;
+  /* Color de fondo */
+  color: #fff;
+  /* Color del texto */
+  text-align: center;
+  /* Alineación del texto */
+  padding: 20px;
+  /* Espaciado interno */
+  bottom: 0;
+  /* Coloca el footer al final de la página */
+  width: 100%;
+  /* Ancho completo */
+}
+
+/* Estilo para los enlaces del footer */
+footer a {
+  color: #fff;
+  /* Color del texto */
+  text-decoration: none;
+  /* Quita el subrayado */
+}
+
+/* Estilo para los enlaces del footer al pasar el mouse */
+footer a:hover {
+  text-decoration: underline;
+  /* Subrayado al pasar el mouse */
+}
+
+.buscador {
+  text-align: center;
+  /* Alineación del contenido */
+  margin-top: -30px;
+  /* Margen superior */
+  margin-left: 800px;
+}
+
+.buscador input[type="text"] {
+  padding: 10px;
+  /* Espaciado interno */
+  width: 300px;
+  /* Ancho del campo de texto */
+  border: 1px solid #ccc;
+  /* Borde */
+  border-radius: 5px;
+  /* Radio del borde */
+}
+
+.buscador input[type="submit"] {
+  padding: 10px 20px;
+  /* Espaciado interno */
+  background-color: #007bff;
+  /* Color de fondo */
+  color: #fff;
+  /* Color del texto */
+  border: none;
+  /* Sin borde */
+  border-radius: 5px;
+  /* Radio del borde */
+  cursor: pointer;
+  /* Cambia el cursor al pasar el mouse */
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #b0bdd1;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #ff6600;
+  /* Color naranja */
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+  /* Color gris oscuro */
+}
+
+.card button {
+  background-color: #ff6600;
+  /* Color naranja */
+  color: #fff;
+  /* Color blanco */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #ff8533;
+  /* Color naranja claro al pasar el mouse */
+}
+
+.contenedor-cartas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-nosotros {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.a-registro {
+  margin-top: 20px;
+}
+
+.logo {
+  height: 16rem;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3 {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card3:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+.card3 img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card3:hover img {
+  transform: scale(1.2);
+}
+
+.banner {
+  width: 60%;
+  display: flex;
+  background-color: #ffffff;
+  padding: 20px;
+  justify-content: center;
+}
+
+.banner img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-cont {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.banner {
+  display: flex;
+  background-color: #ffffff;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.banner p.lore {
+  color: rgb(255, 255, 255);
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  font-family: 'Montserrat';
+  border-radius: 10px;
+  font-size: 0.8em;
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-right: 40%;
+  /* Mover horizontalmente */
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #080808b0;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: -70px;
+  position: absolute;
+}
+
+.button:hover {
+  background-color: #7669eea2;
+}
